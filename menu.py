@@ -10,7 +10,7 @@ def add_item(self,name,price):
 def get_price(self, name):
   return self.menu_items.get(name, None)
 
-dvsfdgsfdgshgdffhffgsfggdddsgsdgsdgsdgsd
+renz supot
 def main()
 # Add initial menu items
 menu.add_item("Burger", 10.99)
