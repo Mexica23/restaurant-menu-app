@@ -9,13 +9,12 @@ def add_item(self,name,price):
 
 def get_price(self, name):
   return self.menu_items.get(name, None)
-
-dvsfdgsfdgshgdffhffgsfggdddsgsdgsdgsdgsd
-def main()
+renz pogi
+def main() 
 # Add initial menu items
 menu.add_item("Burger", 10.99)
 menu.add_item("Fries", 4.99)
-
+      fgfgdfhfg
 if__name__"__main__":
 main()
 hjkgjkgkjgjg
