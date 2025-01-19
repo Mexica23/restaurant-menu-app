@@ -12,6 +12,8 @@ def get_price(self, name):
 renz pogi
 def main() 
 # Add initial menu items
+git commit -m "Add display_menu method to show menu items"
+
 menu.add_item("Burger", 10.99)
 menu.add_item("Fries", 4.99)
       fgfgdfhfg
