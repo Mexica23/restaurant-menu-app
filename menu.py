@@ -9,7 +9,7 @@ def add_item(self,name,price):
 
 def get_price(self, name):
   return self.menu_items.get(name, None)
-renz beki
+renz beki gfgdgdg
 def main() 
 # Add initial menu items
 menu.add_item("Burger", 10.99)
