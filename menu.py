@@ -1,20 +1,18 @@
+class RestaurantMenu:
+    def init(self):
+        self.menu_items = {}
 
-class RestaurantMenu
+    def add_item(self, name, price):
+     self.menu_items[name] = price
 
-def_init_(self)
-self.menu_items = {}
+    def get_price(self, name):
+     return self.menu_items.get(name, None)
 
-def add_item(self,name,price):
-  self.menu_items{name}=price
+    def main():
+        menu = RestaurantMenu()
+        # Add initial menu items
+        menu.add_item("Burger", 10.99)
+        menu.add_item("Fries", 4.99)
 
-def get_price(self, name):
-  return self.menu_items.get(name, None)
-renz beki gfgdgdg xsv
-def main() 
-# Add initial menu items
-menu.add_item("Burger", 10.99)
-menu.add_item("Fries", 4.99)
-      fgfgdfhfg
-if__name__"__main__":
-main()
-hjkgjkgkjgjg
+    if name == "main":
+        main()
