@@ -8,6 +8,11 @@ class RestaurantMenu:
     def get_price(self, name):
      return self.menu_items.get(name, None)
 
+    def remove_item(self, name):
+        if name in self.menu_items:
+            return True
+        return False
+
     def main():
         menu = RestaurantMenu()
         # Add initial menu items
